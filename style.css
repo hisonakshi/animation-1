@@ -24,8 +24,8 @@ body {
   font-weight: 900;
   color: #cf4047;
   text-align: center;
-  transition: font-size 0.2s ease;
-  z-index: 10;
+  transition: font-size 0.2s ease,opacity 0.3s ease;;
+  z-index: 1;
 }
 
 /* Box styles shared by all */
@@ -42,7 +42,9 @@ body {
   position: absolute;
   border-radius: 10px;
   transition: all 0.3s ease;
+  z-index: 5;
 }
+
 
 /* Background images */
 #box1 {
